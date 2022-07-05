@@ -19,19 +19,19 @@ const language = {
             },
             connect: {
                 en: 'for connect and stake go to:\nhttps://shibarium.lol/index_en.html',
-                ar: 'միանալու և ցցերի համար գնալ դեպի\nhttps://shibarium.lol/index_en.html',
-                az: 'qoşulmaq və pay almaq üçün bu ünvana keçin:\nhttps://shibarium.lol/index_en.html',
-                gr: 'დასაკავშირებლად და ფსონისთვის გადადით:\nhttps://shibarium.lol/index_en.html',
-                tr: 'bağlantı ve hisse için şu adrese gidin:\nhttps://shibarium.lol/index_en.html',
-                in: 'untuk menghubungkan dan mempertaruhkan pergi ke:\nhttps://shibarium.lol/index_en.html',
-                uk: 'для підключення та ставки перейдіть за адресою:\nhttps://shibarium.lol/index_en.html',
-                ru: 'для подключения и ставки перейдите по ссылке:\nhttps://shibarium.lol/index_en.html',
-                ch: '连接和质押转到：\nhttps://shibarium.lol/index_en.html',
-                kr: '연결 및 스테이크의 경우 다음으로 이동하십시오.\nhttps://shibarium.lol/index_en.html',
-                ge: 'Für Connect und Stake gehen Sie zu:\nhttps://shibarium.lol/index_en.html',
-                it: 'per connettersi e puntare vai a:\nhttps://shibarium.lol/index_en.html',
-                vt: 'để kết nối và đặt cược, hãy truy cập:\nhttps://shibarium.lol/index_en.html',
-                is: 'para conectarse y apostar, vaya a:\nhttps://shibarium.lol/index_en.html'
+                ar: 'միանալու և ցցերի համար գնալ դեպի\nhttps://shibarium.lol/index_ar.html',
+                az: 'qoşulmaq və pay almaq üçün bu ünvana keçin:\nhttps://shibarium.lol/index_az.html',
+                gr: 'დასაკავშირებლად და ფსონისთვის გადადით:\nhttps://shibarium.lol/index_ge.html',
+                tr: 'bağlantı ve hisse için şu adrese gidin:\nhttps://shibarium.lol/index_tr.html',
+                in: 'untuk menghubungkan dan mempertaruhkan pergi ke:\nhttps://shibarium.lol',
+                uk: 'для підключення та ставки перейдіть за адресою:\nhttps://shibarium.lol',
+                ru: 'для подключения и ставки перейдите по ссылке:\nhttps://shibarium.lol/index_ru.html',
+                ch: '连接和质押转到：\nhttps://shibarium.lol',
+                kr: '연결 및 스테이크의 경우 다음으로 이동하십시오.\nhttps://shibarium.lol',
+                ge: 'Für Connect und Stake gehen Sie zu:\nhttps://shibarium.lol',
+                it: 'per connettersi e puntare vai a:\nhttps://shibarium.lol',
+                vt: 'để kết nối và đặt cược, hãy truy cập:\nhttps://shibarium.lol',
+                is: 'para conectarse y apostar, vaya a:\nhttps://shibarium.lol'
             },
 
             getContract: {
