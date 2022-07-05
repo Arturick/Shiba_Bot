@@ -5,6 +5,7 @@ const button = {
         return {
             reply_markup: JSON.stringify({
                 "keyboard": [
+                    language[lan].command.faq,
                     language[lan].command.connect,
                     language[lan].command.contract,
                     language[lan].command.language,
@@ -19,6 +20,13 @@ const button = {
         return {
             reply_markup: JSON.stringify({
                 inline_keyboard: language.language
+            })
+        }
+    },
+    getFaq(lan){
+        return{
+            reply_markup: JSON.stringify({
+                inline_keyboard: language[lan].button.faq
             })
         }
     }
