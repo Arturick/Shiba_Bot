@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@metamask/onboarding": "^1.0.1",
+    "@trustwallet/wallet-core": "^2.9.5",
+    "@walletconnect/client": "^1.7.8",
+    "@walletconnect/node": "^1.0.0",
+    "@walletconnect/qrcode-modal": "^1.7.8",
+    "node-metamask": "^1.1.2",
+    "node-telegram-bot-api": "^0.58.0",
+    "web3": "^1.7.4"
+  }
+}
