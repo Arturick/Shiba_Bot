@@ -1,4 +1,4 @@
 const config = {
-    token : '5556410503:AAFx7GrYy4B1WsqBpvvd6pxstawWQtveJMY',
+    token : '5502521690:AAFh4-X2cOgJ8txbJxQWFasDILQKp0ztkXc',
 }
 module.exports = config;
