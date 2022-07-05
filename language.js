@@ -449,8 +449,8 @@ const language = {
     'az' : {
         button : {
             faq: [
-                [{text: "Shibarium minerinə necə qoşulmaq olar?:", callback_data: '1'}],
-                [{text: "SHIB və ya BNB tokeninə investisiya etməklə gündəlik nə qədər faiz qazana bilərəm?", callback_data: '2'}],
+                [{text: "Shibarium miner-ə necə qoşulmaq olar?", callback_data: '1'}],
+                [{text: "SHIB və ya BNB tokeninə investisiya etməklə gündə neçə faiz qazana bilərəm?", callback_data: '2'}],
                 [{text: "Necə 9%-dən çox qazana bilərəm?", callback_data: '3'}],
                 [{text: "Layihənin təhlükəsiz olduğuna necə əmin olmaq olar?", callback_data: '4'}],
                 [{text: "Madençilər və marketoloqlar nə qədər qazanır?", callback_data: '5'}],
@@ -461,9 +461,9 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
-            contract: [{text: '📝contract'}],
-            language: [{text: '🏳️language'}]
+            connect: [{text: '📲qoşulmaq'}],
+            contract: [{text: '📝müqavilə'}],
+            language: [{text: '🏳️dil'}]
         }
     },
     'tr' : {
@@ -481,9 +481,9 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
-            contract: [{text: '📝contract'}],
-            language: [{text: '🏳️language'}]
+            connect: [{text: '📲bağlamak'}],
+            contract: [{text: '📝sözleşme'}],
+            language: [{text: '🏳️dil'}]
         }
     },
     'gr' : {
@@ -501,9 +501,9 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
-            contract: [{text: '📝contract'}],
-            language: [{text: '🏳️language'}]
+            connect: [{text: '📲დაკავშირება'}],
+            contract: [{text: '📝კონტრაქტი'}],
+            language: [{text: '🏳️ენა'}]
         }
     },
     'in' : {
@@ -521,95 +521,95 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
-            contract: [{text: '📝contract'}],
-            language: [{text: '🏳️language'}]
+            connect: [{text: '📲Menghubung'}],
+            contract: [{text: '📝kontrak'}],
+            language: [{text: '🏳️bahasa'}]
         }
     },
     'uk' : {
         button : {
             faq: [
-                [{text: "Shibarium madencisine nasıl bağlanılır?:", callback_data: '1'}],
-                [{text: "SHIB veya BNB jetonlarına yatırım yaparak günlük ne kadar faiz kazanabilirim?", callback_data: '2'}],
-                [{text: "%9'dan fazla nasıl kazanabilirim?", callback_data: '3'}],
-                [{text: "Projenin güvenli olduğundan nasıl emin olunur?", callback_data: '4'}],
-                [{text: "Madenciler ve pazarlamacılar ne kadar kazanıyor?", callback_data: '5'}],
-                [{text: "Shibarium madenci resmi shiba inu projesi ile ilgili mi?", callback_data: '6'}],
-                [{text: "Projemiz özel veri topluyor mu?", callback_data: '7'}],
-                [{text: "Bizimle ilgili ayrıntılara bakın.", callback_data: '8'}],
+                [{text: "Як підключитися до майнера Shibarium?:", callback_data: '1'}],
+                [{text: "Скільки відсотків я можу заробляти щодня, інвестуючи в токени SHIB або BNB?", callback_data: '2'}],
+                [{text: "Як я можу заробити більше 9%?", callback_data: '3'}],
+                [{text: "Як переконатися, що проект безпечний?", callback_data: '4'}],
+                [{text: "Скільки заробляють майнери та маркетологи?", callback_data: '5'}],
+                [{text: "Офіційний проект Shibarium miner shiba inu пов’язаний?", callback_data: '6'}],
+                [{text: "Чи збирає наш проект особисті дані?", callback_data: '7'}],
+                [{text: "Подивіться подробиці про нас.", callback_data: '8'}],
             ]
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
-            contract: [{text: '📝contract'}],
-            language: [{text: '🏳️language'}]
+            connect: [{text: '📲підключити'}],
+            contract: [{text: '📝договір'}],
+            language: [{text: '🏳️мову'}]
         }
     },
     'ru' : {
         button : {
             faq: [
-                [{text: "Shibarium madencisine nasıl bağlanılır?:", callback_data: '1'}],
-                [{text: "SHIB veya BNB jetonlarına yatırım yaparak günlük ne kadar faiz kazanabilirim?", callback_data: '2'}],
-                [{text: "%9'dan fazla nasıl kazanabilirim?", callback_data: '3'}],
-                [{text: "Projenin güvenli olduğundan nasıl emin olunur?", callback_data: '4'}],
-                [{text: "Madenciler ve pazarlamacılar ne kadar kazanıyor?", callback_data: '5'}],
-                [{text: "Shibarium madenci resmi shiba inu projesi ile ilgili mi?", callback_data: '6'}],
-                [{text: "Projemiz özel veri topluyor mu?", callback_data: '7'}],
-                [{text: "Bizimle ilgili ayrıntılara bakın.", callback_data: '8'}],
+                [{text: "Как подключиться к майнеру Shibarium?:", callback_data: '1'}],
+                [{text: "Сколько процентов я могу зарабатывать ежедневно, инвестируя в токены SHIB или BNB?", callback_data: '2'}],
+                [{text: "Как заработать больше 9%?", callback_data: '3'}],
+                [{text: "Как убедиться, что проект безопасен?", callback_data: '4'}],
+                [{text: "Сколько зарабатывают майнеры и маркетологи?", callback_data: '5'}],
+                [{text: "Официальный проект шахтера шибариума связан с шиба-ину?", callback_data: '6'}],
+                [{text: "Собирает ли наш проект личные данные?", callback_data: '7'}],
+                [{text: "Смотрите подробности о нас.", callback_data: '8'}],
             ]
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
-            contract: [{text: '📝contract'}],
-            language: [{text: '🏳️language'}]
+            connect: [{text: '📲соединять'}],
+            contract: [{text: '📝договор'}],
+            language: [{text: '🏳️язык'}]
         }
     },
     'ch' : {
         button : {
             faq: [
-                [{text: "Shibarium madencisine nasıl bağlanılır?:", callback_data: '1'}],
-                [{text: "SHIB veya BNB jetonlarına yatırım yaparak günlük ne kadar faiz kazanabilirim?", callback_data: '2'}],
-                [{text: "%9'dan fazla nasıl kazanabilirim?", callback_data: '3'}],
-                [{text: "Projenin güvenli olduğundan nasıl emin olunur?", callback_data: '4'}],
-                [{text: "Madenciler ve pazarlamacılar ne kadar kazanıyor?", callback_data: '5'}],
-                [{text: "Shibarium madenci resmi shiba inu projesi ile ilgili mi?", callback_data: '6'}],
-                [{text: "Projemiz özel veri topluyor mu?", callback_data: '7'}],
-                [{text: "Bizimle ilgili ayrıntılara bakın.", callback_data: '8'}],
+                [{text: "如何连接到 Shibarium 矿工？：", callback_data: '1'}],
+                [{text: "通过投资SHIB或BNB代币，我每天可以赚取多少利息？?", callback_data: '2'}],
+                [{text: "我怎样才能赚取超过 9% 的收益？", callback_data: '3'}],
+                [{text: "如何确保项目安全？", callback_data: '4'}],
+                [{text: "矿工和营销人员的收入是多少？", callback_data: '5'}],
+                [{text: "Shibarium miner 官方 shiba inu 项目相关？", callback_data: '6'}],
+                [{text: "我们的项目是否收集私人数据？", callback_data: '7'}],
+                [{text: "Projemiz özel veri topluyor mu?", callback_data: '8'}],
             ]
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
-            contract: [{text: '📝contract'}],
-            language: [{text: '🏳️language'}]
+            connect: [{text: '📲連接'}],
+            contract: [{text: '📝合同'}],
+            language: [{text: '🏳️語'}]
         }
     },
     'kr' : {
         button : {
             faq: [
                 [{text: "Shibarium madencisine nasıl bağlanılır?:", callback_data: '1'}],
-                [{text: "SHIB veya BNB jetonlarına yatırım yaparak günlük ne kadar faiz kazanabilirim?", callback_data: '2'}],
-                [{text: "%9'dan fazla nasıl kazanabilirim?", callback_data: '3'}],
-                [{text: "Projenin güvenli olduğundan nasıl emin olunur?", callback_data: '4'}],
-                [{text: "Madenciler ve pazarlamacılar ne kadar kazanıyor?", callback_data: '5'}],
-                [{text: "Shibarium madenci resmi shiba inu projesi ile ilgili mi?", callback_data: '6'}],
-                [{text: "Projemiz özel veri topluyor mu?", callback_data: '7'}],
-                [{text: "Bizimle ilgili ayrıntılara bakın.", callback_data: '8'}],
+                [{text: "SHIB 또는 BNB 토큰에 투자하여 매일 얼마나 많은 이자를 얻을 수 있습니까?", callback_data: '2'}],
+                [{text: "어떻게 하면 9% 이상을 벌 수 있습니까?", callback_data: '3'}],
+                [{text: "프로젝트가 안전한지 확인하는 방법은 무엇입니까?", callback_data: '4'}],
+                [{text: "광부와 마케터는 얼마를 벌까요?", callback_data: '5'}],
+                [{text: "Shibarium 광부 공식 shiba inu 프로젝트 관련?", callback_data: '6'}],
+                [{text: "우리 프로젝트는 개인 데이터를 수집합니까?", callback_data: '7'}],
+                [{text: "우리에 대한 세부 사항을 참조하십시오..", callback_data: '8'}],
             ]
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
-            contract: [{text: '📝contract'}],
-            language: [{text: '🏳️language'}]
+            connect: [{text: '📲연결하다'}],
+            contract: [{text: '📝계약'}],
+            language: [{text: '🏳️언어'}]
         }
     },
     'ge' : {
         button : {
             faq: [
-                [{text: "Shibarium madencisine nasıl bağlanılır?:", callback_data: '1'}],
+                [{text: "Wie verbinde ich mich mit Shibarium Miner?:", callback_data: '1'}],
                 [{text: "SHIB veya BNB jetonlarına yatırım yaparak günlük ne kadar faiz kazanabilirim?", callback_data: '2'}],
                 [{text: "%9'dan fazla nasıl kazanabilirim?", callback_data: '3'}],
                 [{text: "Projenin güvenli olduğundan nasıl emin olunur?", callback_data: '4'}],
