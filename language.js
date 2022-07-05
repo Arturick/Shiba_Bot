@@ -420,10 +420,10 @@ const language = {
          ]
       },
       command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝️contract'}],
+            language: [{text: '🏳️language'}]
       }
   },
     'ar' : {
@@ -440,10 +440,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'միացնել'}],
-            contract: [{text: 'պայմանագիր'}],
-            language: [{text: 'լեզու'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲միացնել'}],
+            contract: [{text: '📝️պայմանագիր'}],
+            language: [{text: '🏳️լեզու'}]
         }
     },
     'az' : {
@@ -460,10 +460,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝contract'}],
+            language: [{text: '🏳️language'}]
         }
     },
     'tr' : {
@@ -480,10 +480,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝contract'}],
+            language: [{text: '🏳️language'}]
         }
     },
     'gr' : {
@@ -500,10 +500,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝contract'}],
+            language: [{text: '🏳️language'}]
         }
     },
     'in' : {
@@ -520,10 +520,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝contract'}],
+            language: [{text: '🏳️language'}]
         }
     },
     'uk' : {
@@ -540,10 +540,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝contract'}],
+            language: [{text: '🏳️language'}]
         }
     },
     'ru' : {
@@ -560,10 +560,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝contract'}],
+            language: [{text: '🏳️language'}]
         }
     },
     'ch' : {
@@ -580,10 +580,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝contract'}],
+            language: [{text: '🏳️language'}]
         }
     },
     'kr' : {
@@ -600,10 +600,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝contract'}],
+            language: [{text: '🏳️language'}]
         }
     },
     'ge' : {
@@ -620,10 +620,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝contract'}],
+            language: [{text: '🏳️language'}]
         }
     },
     'it' : {
@@ -640,10 +640,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝contract'}],
+            language: [{text: '🏳️language'}]
         }
     },
     'vt' : {
@@ -660,10 +660,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝contract'}],
+            language: [{text: '🏳️language'}]
         }
     },
     'is' : {
@@ -680,10 +680,10 @@ const language = {
             ]
         },
         command: {
-            faq: [{text: 'faq'}],
-            connect: [{text: 'connect'}],
-            contract: [{text: 'contract'}],
-            language: [{text: 'language'}]
+            faq: [{text: '🚑faq'}],
+            connect: [{text: '📲connect'}],
+            contract: [{text: '📝contract'}],
+            language: [{text: '🏳️language'}]
         }
     },
 
