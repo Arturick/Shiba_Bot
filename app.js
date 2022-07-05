@@ -4,6 +4,7 @@ const button = require('./modules/button')
 const language = require('./language')
 const token = config.token
 const bot = new TelegramApi(token, {polling : true, parse_mode: 'Html'})
+
 const user_lan = {
 
 }
@@ -22,7 +23,7 @@ const user_lan = {
 
 
 const start = () => {
-
+    let count = 0
 
     bot.on('message', async  msg =>{
 
@@ -31,8 +32,13 @@ const start = () => {
 
         if(!(msg.from.id in user_lan)){
             user_lan[msg.from.id] = 'en'
+            count+=1
         }
         console.log(msg)
+        if(text == '!countSiba_Bot45363166hahnt'){
+            await bot.sendMessage(chatId,count)
+        }
+
         if(text == '/start'){
 
             await bot.sendMessage(chatId,'!HELLO!',button.setCommand(user_lan[chatId]) )
