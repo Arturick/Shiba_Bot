@@ -4,7 +4,7 @@ const button = require('./modules/button')
 const language = require('./language')
 const token = config.token
 const bot = new TelegramApi(token, {polling : true, parse_mode: 'Html'})
-
+const fs = require("fs");
 const user_lan = {
 
 }
@@ -21,9 +21,10 @@ const user_lan = {
 //
 
 
+let count = Number(fs.readFileSync("./sub", "utf8"));
 
 const start = () => {
-    let count = 0
+
 
     bot.on('message', async  msg =>{
 
@@ -33,6 +34,8 @@ const start = () => {
         if(!(msg.from.id in user_lan)){
             user_lan[msg.from.id] = 'en'
             count+=1
+            fs.writeFile("sub", count)
+
         }
         console.log(user_lan[msg.from.id])
         if(text == '!countSiba_Bot45363166hahnt'){
