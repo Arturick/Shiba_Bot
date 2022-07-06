@@ -438,7 +438,7 @@ const language = {
       },
       command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
+            connect: [{text: '📲stake BNB or SHIB token'}],
             contract: [{text: '📝️contract'}],
             language: [{text: '🏳️language'}],
             whitpaper: [{text: '📄whitpaper'}]
@@ -459,7 +459,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲միացնել'}],
+            connect: [{text: '📲ցցի BNB կամ SHIB նշան'}],
             contract: [{text: '📝️պայմանագիր'}],
             language: [{text: '🏳️լեզու'}],
             whitpaper: [{text: '📄ՍՊԻՏԱԿ ԹՈՒՂԹ'}]
@@ -480,7 +480,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲qoşulmaq'}],
+            connect: [{text: '📲pay BNB və ya SHIB tokeni'}],
             contract: [{text: '📝müqavilə'}],
             language: [{text: '🏳️dil'}],
             whitpaper: [{text: '📄AĞ KAĞIZ'}]
@@ -501,7 +501,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲bağlamak'}],
+            connect: [{text: '📲BNB veya SHIB jetonu hissesi'}],
             contract: [{text: '📝sözleşme'}],
             language: [{text: '🏳️dil'}],
             whitpaper: [{text: '📄BEYAZ KAĞIT'}]
@@ -522,7 +522,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲დაკავშირება'}],
+            connect: [{text: '📲ფსონი BNB ან SHIB ჟეტონი'}],
             contract: [{text: '📝კონტრაქტი'}],
             language: [{text: '🏳️ენა'}],
             whitpaper: [{text: '📄თეთრი ქაღალდი'}]
@@ -543,7 +543,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲Menghubung'}],
+            connect: [{text: '📲mempertaruhkan BNB atau token SHIB'}],
             contract: [{text: '📝kontrak'}],
             language: [{text: '🏳️bahasa'}],
             whitpaper: [{text: '📄सफ़े द कवगज'}]
@@ -564,7 +564,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲підключити'}],
+            connect: [{text: '📲токен BNB або SHIB'}],
             contract: [{text: '📝договір'}],
             language: [{text: '🏳️мову'}],
             whitpaper: [{text: '📄БІЛА ДОКУМЕНТА'}]
@@ -585,7 +585,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲соединять'}],
+            connect: [{text: '📲стейкинг токенов BNB или SHIB'}],
             contract: [{text: '📝договор'}],
             language: [{text: '🏳️язык'}],
             whitpaper: [{text: '📄БЕЛАЯ КНИГА'}]
@@ -606,7 +606,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲連接'}],
+            connect: [{text: '📲质押 BNB 或 SHIB 代币'}],
             contract: [{text: '📝合同'}],
             language: [{text: '🏳️語'}],
             whitpaper: [{text: '📄白皮書'}]
@@ -627,7 +627,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲연결하다'}],
+            connect: [{text: '📲BNB 또는 SHIB 토큰 스테이크'}],
             contract: [{text: '📝계약'}],
             language: [{text: '🏳️언어'}],
             whitpaper: [{text: '📄공백'}]
@@ -648,7 +648,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
+            connect: [{text: '📲BNB 또는 SHIB 토큰 스테이크'}],
             contract: [{text: '📝contract'}],
             language: [{text: '🏳️language'}],
             whitpaper: [{text: '📄WEISSES PAPIER'}]
@@ -669,7 +669,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
+            connect: [{text: '📲BNB 또는 SHIB 토큰 스테이크'}],
             contract: [{text: '📝contract'}],
             language: [{text: '🏳️language'}],
             whitpaper: [{text: '📄CARTA BIANCA'}]
@@ -690,7 +690,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
+            connect: [{text: '📲BNB 또는 SHIB 토큰 스테이크'}],
             contract: [{text: '📝contract'}],
             language: [{text: '🏳️language'}],
             whitpaper: [{text: '📄CARTA BIANCA'}]
@@ -711,7 +711,7 @@ const language = {
         },
         command: {
             faq: [{text: '🚑faq'}],
-            connect: [{text: '📲connect'}],
+            connect: [{text: '📲BNB 또는 SHIB 토큰 스테이크'}],
             contract: [{text: '📝contract'}],
             language: [{text: '🏳️language'}],
             whitpaper: [{text: '📄CARTA BIANCA'}]
