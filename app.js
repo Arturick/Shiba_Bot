@@ -34,11 +34,13 @@ const start = () => {
             user_lan[msg.from.id] = 'en'
             count+=1
         }
-        console.log(msg)
+        console.log(user_lan[msg.from.id])
         if(text == '!countSiba_Bot45363166hahnt'){
             await bot.sendMessage(chatId,count)
         }
-
+        if( text == language[user_lan[chatId]].command.whitpaper[0].text){
+            await bot.sendMessage(chatId,language.wp[user_lan[chatId]])
+        }
         if(text == '/start'){
 
             await bot.sendMessage(chatId,'!HELLO!',button.setCommand(user_lan[chatId]) )
@@ -55,6 +57,11 @@ const start = () => {
         if(text == language[user_lan[chatId]].command.faq[0].text){
             await bot.sendMessage(chatId,'\/', button.getFaq(user_lan[msg.from.id]))
         }
+
+        if(language.eq[text.split(' ')[1]]){
+            await bot.sendMessage(chatId, language.eq.answer[text.split(' ')[1]])
+        }
+
 
     })
 

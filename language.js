@@ -1,4 +1,21 @@
 const language = {
+    eq: {
+        DappRadar: [{text: '🎛 DappRadar'}],
+        Audit: [{text: '💾 Audit'}],
+        Telegram: [{text: '🛫 Telegram'}],
+        Twiter: [{text: ' ⚧ Twiter'}],
+        Chat: [{text: '📝 Chat'}],
+        Youtoobe: [{text: '💻 Youtoobe'}],
+        answer: {
+            DappRadar: 'https://dappradar.com/binance-smart-chain/high-risk/shibarium-dapp-miner',
+            Audit: 'SHIB    ->     https://gaudit.org/reports/26/Audit-Report.pdf\nBNB    ->    https://gaudit.org/reports/27/Audit-Report.pdf',
+            Telegram: 'https://t.me/shibarium_dapp',
+            Twiter: 'https://twitter.com/ShibariumL',
+            Chat: 'https://t.me/shibarium_dapp',
+            Youtoobe: 'https://www.youtube.com/channel/UCdMZXJdVFgKAwjjf1J1z3BA/featured'
+        }
+
+    },
     text: {
         answer: {
             setLanguage: {
@@ -423,7 +440,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲connect'}],
             contract: [{text: '📝️contract'}],
-            language: [{text: '🏳️language'}]
+            language: [{text: '🏳️language'}],
+            whitpaper: [{text: 'whitpaper'}]
       }
   },
     'ar' : {
@@ -443,7 +461,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲միացնել'}],
             contract: [{text: '📝️պայմանագիր'}],
-            language: [{text: '🏳️լեզու'}]
+            language: [{text: '🏳️լեզու'}],
+            whitpaper: [{text: 'ՍՊԻՏԱԿ ԹՈՒՂԹ'}]
         }
     },
     'az' : {
@@ -463,7 +482,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲qoşulmaq'}],
             contract: [{text: '📝müqavilə'}],
-            language: [{text: '🏳️dil'}]
+            language: [{text: '🏳️dil'}],
+            whitpaper: [{text: 'AĞ KAĞIZ'}]
         }
     },
     'tr' : {
@@ -483,7 +503,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲bağlamak'}],
             contract: [{text: '📝sözleşme'}],
-            language: [{text: '🏳️dil'}]
+            language: [{text: '🏳️dil'}],
+            whitpaper: [{text: 'BEYAZ KAĞIT'}]
         }
     },
     'gr' : {
@@ -503,7 +524,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲დაკავშირება'}],
             contract: [{text: '📝კონტრაქტი'}],
-            language: [{text: '🏳️ენა'}]
+            language: [{text: '🏳️ენა'}],
+            whitpaper: [{text: 'თეთრი ქაღალდი'}]
         }
     },
     'in' : {
@@ -523,7 +545,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲Menghubung'}],
             contract: [{text: '📝kontrak'}],
-            language: [{text: '🏳️bahasa'}]
+            language: [{text: '🏳️bahasa'}],
+            whitpaper: [{text: 'सफ़े द कवगज'}]
         }
     },
     'uk' : {
@@ -543,7 +566,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲підключити'}],
             contract: [{text: '📝договір'}],
-            language: [{text: '🏳️мову'}]
+            language: [{text: '🏳️мову'}],
+            whitpaper: [{text: 'БІЛА ДОКУМЕНТА'}]
         }
     },
     'ru' : {
@@ -563,7 +587,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲соединять'}],
             contract: [{text: '📝договор'}],
-            language: [{text: '🏳️язык'}]
+            language: [{text: '🏳️язык'}],
+            whitpaper: [{text: 'БЕЛАЯ КНИГА'}]
         }
     },
     'ch' : {
@@ -583,7 +608,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲連接'}],
             contract: [{text: '📝合同'}],
-            language: [{text: '🏳️語'}]
+            language: [{text: '🏳️語'}],
+            whitpaper: [{text: '白皮書'}]
         }
     },
     'kr' : {
@@ -603,7 +629,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲연결하다'}],
             contract: [{text: '📝계약'}],
-            language: [{text: '🏳️언어'}]
+            language: [{text: '🏳️언어'}],
+            whitpaper: [{text: '공백'}]
         }
     },
     'ge' : {
@@ -623,7 +650,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲connect'}],
             contract: [{text: '📝contract'}],
-            language: [{text: '🏳️language'}]
+            language: [{text: '🏳️language'}],
+            whitpaper: [{text: 'WEISSES PAPIER'}]
         }
     },
     'it' : {
@@ -643,7 +671,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲connect'}],
             contract: [{text: '📝contract'}],
-            language: [{text: '🏳️language'}]
+            language: [{text: '🏳️language'}],
+            whitpaper: [{text: 'CARTA BIANCA'}]
         }
     },
     'vt' : {
@@ -663,7 +692,8 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲connect'}],
             contract: [{text: '📝contract'}],
-            language: [{text: '🏳️language'}]
+            language: [{text: '🏳️language'}],
+            whitpaper: [{text: 'CARTA BIANCA'}]
         }
     },
     'is' : {
@@ -683,10 +713,26 @@ const language = {
             faq: [{text: '🚑faq'}],
             connect: [{text: '📲connect'}],
             contract: [{text: '📝contract'}],
-            language: [{text: '🏳️language'}]
+            language: [{text: '🏳️language'}],
+            whitpaper: [{text: 'CARTA BIANCA'}]
         }
     },
-
+    wp: {
+        'en' : 'https://shibarium.lol/whitepaper/Whitepaper-English.pdf',
+        'ar' : 'https://shibarium.lol/whitepaper/Whitepaper-Armenia.pdf',
+        'az' :  'https://shibarium.lol/whitepaper/Whitepaper-Azerbaijani.pdf',
+        'tr' :  'https://shibarium.lol/whitepaper/Whitepaper-Turkish.pdf',
+        'gr' :  'https://shibarium.lol/whitepaper/Whitepaper-Georgian.pdf',
+        'in' : 'https://shibarium.lol/whitepaper/Whitepaper-Indian.pdf',
+        'uk' : 'https://shibarium.lol/whitepaper/Whitepaper-Ukrainian.pdf',
+        'ru' : 'https://shibarium.lol/whitepaper/Whitepaper-Russian.pdf',
+        'ch' : 'https://shibarium.lol/whitepaper/Whitepaper-Chinese.pdf',
+        'kr' : 'https://shibarium.lol/whitepaper/Whitepaper-Korean.pdf',
+        'ge' : 'https://shibarium.lol/whitepaper/Whitepaper-Deutsch.pdf',
+        'it' : 'https://shibarium.lol/whitepaper/Whitepaper-Italian.pdf',
+        'vt' : 'https://shibarium.lol/whitepaper/Whitepaper-Vietnamese.pdf',
+        'is' :  'https://shibarium.lol/whitepaper/Whitepaper-Spanish.pdf'
+    }
 
 
 }
