@@ -34,7 +34,7 @@ const start = () => {
         if(!(msg.from.id in user_lan)){
             user_lan[msg.from.id] = 'en'
             count+=1
-            fs.writeFile("sub", count)
+            fs.writeFileSync("sub", String(count))
 
         }
         console.log(user_lan[msg.from.id])
