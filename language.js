@@ -2,7 +2,7 @@ const language = {
     eq: {
         DappRadar: [{text: '🎛 DappRadar'}],
         Audit: [{text: '💾 Audit'}],
-        Telegram: [{text: '🛫 Telegram'}],
+        Telegram: [{text: '💎 Telegram'}],
         Twiter: [{text: ' ⚧ Twiter'}],
         Chat: [{text: '📝 Chat'}],
         Youtoobe: [{text: '💻 Youtoobe'}],
@@ -441,7 +441,7 @@ const language = {
             connect: [{text: '📲connect'}],
             contract: [{text: '📝️contract'}],
             language: [{text: '🏳️language'}],
-            whitpaper: [{text: 'whitpaper'}]
+            whitpaper: [{text: '📄whitpaper'}]
       }
   },
     'ar' : {
@@ -462,7 +462,7 @@ const language = {
             connect: [{text: '📲միացնել'}],
             contract: [{text: '📝️պայմանագիր'}],
             language: [{text: '🏳️լեզու'}],
-            whitpaper: [{text: 'ՍՊԻՏԱԿ ԹՈՒՂԹ'}]
+            whitpaper: [{text: '📄ՍՊԻՏԱԿ ԹՈՒՂԹ'}]
         }
     },
     'az' : {
@@ -483,7 +483,7 @@ const language = {
             connect: [{text: '📲qoşulmaq'}],
             contract: [{text: '📝müqavilə'}],
             language: [{text: '🏳️dil'}],
-            whitpaper: [{text: 'AĞ KAĞIZ'}]
+            whitpaper: [{text: '📄AĞ KAĞIZ'}]
         }
     },
     'tr' : {
@@ -504,7 +504,7 @@ const language = {
             connect: [{text: '📲bağlamak'}],
             contract: [{text: '📝sözleşme'}],
             language: [{text: '🏳️dil'}],
-            whitpaper: [{text: 'BEYAZ KAĞIT'}]
+            whitpaper: [{text: '📄BEYAZ KAĞIT'}]
         }
     },
     'gr' : {
@@ -525,7 +525,7 @@ const language = {
             connect: [{text: '📲დაკავშირება'}],
             contract: [{text: '📝კონტრაქტი'}],
             language: [{text: '🏳️ენა'}],
-            whitpaper: [{text: 'თეთრი ქაღალდი'}]
+            whitpaper: [{text: '📄თეთრი ქაღალდი'}]
         }
     },
     'in' : {
@@ -546,7 +546,7 @@ const language = {
             connect: [{text: '📲Menghubung'}],
             contract: [{text: '📝kontrak'}],
             language: [{text: '🏳️bahasa'}],
-            whitpaper: [{text: 'सफ़े द कवगज'}]
+            whitpaper: [{text: '📄सफ़े द कवगज'}]
         }
     },
     'uk' : {
@@ -567,7 +567,7 @@ const language = {
             connect: [{text: '📲підключити'}],
             contract: [{text: '📝договір'}],
             language: [{text: '🏳️мову'}],
-            whitpaper: [{text: 'БІЛА ДОКУМЕНТА'}]
+            whitpaper: [{text: '📄БІЛА ДОКУМЕНТА'}]
         }
     },
     'ru' : {
@@ -588,7 +588,7 @@ const language = {
             connect: [{text: '📲соединять'}],
             contract: [{text: '📝договор'}],
             language: [{text: '🏳️язык'}],
-            whitpaper: [{text: 'БЕЛАЯ КНИГА'}]
+            whitpaper: [{text: '📄БЕЛАЯ КНИГА'}]
         }
     },
     'ch' : {
@@ -609,7 +609,7 @@ const language = {
             connect: [{text: '📲連接'}],
             contract: [{text: '📝合同'}],
             language: [{text: '🏳️語'}],
-            whitpaper: [{text: '白皮書'}]
+            whitpaper: [{text: '📄白皮書'}]
         }
     },
     'kr' : {
@@ -630,7 +630,7 @@ const language = {
             connect: [{text: '📲연결하다'}],
             contract: [{text: '📝계약'}],
             language: [{text: '🏳️언어'}],
-            whitpaper: [{text: '공백'}]
+            whitpaper: [{text: '📄공백'}]
         }
     },
     'ge' : {
@@ -651,7 +651,7 @@ const language = {
             connect: [{text: '📲connect'}],
             contract: [{text: '📝contract'}],
             language: [{text: '🏳️language'}],
-            whitpaper: [{text: 'WEISSES PAPIER'}]
+            whitpaper: [{text: '📄WEISSES PAPIER'}]
         }
     },
     'it' : {
@@ -672,7 +672,7 @@ const language = {
             connect: [{text: '📲connect'}],
             contract: [{text: '📝contract'}],
             language: [{text: '🏳️language'}],
-            whitpaper: [{text: 'CARTA BIANCA'}]
+            whitpaper: [{text: '📄CARTA BIANCA'}]
         }
     },
     'vt' : {
@@ -693,7 +693,7 @@ const language = {
             connect: [{text: '📲connect'}],
             contract: [{text: '📝contract'}],
             language: [{text: '🏳️language'}],
-            whitpaper: [{text: 'CARTA BIANCA'}]
+            whitpaper: [{text: '📄CARTA BIANCA'}]
         }
     },
     'is' : {
@@ -714,7 +714,7 @@ const language = {
             connect: [{text: '📲connect'}],
             contract: [{text: '📝contract'}],
             language: [{text: '🏳️language'}],
-            whitpaper: [{text: 'CARTA BIANCA'}]
+            whitpaper: [{text: '📄CARTA BIANCA'}]
         }
     },
     wp: {
