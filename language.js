@@ -534,7 +534,7 @@ const language = {
 03.💎 Thu nhập hàng ngày 12% trong đó 2% là bảo hiểm. Bảo hiểm giảm từ 20% xuống 2%.
 04.🚀 Tổng lợi nhuận 290%
 05.🚀 Phần thưởng giới thiệu từ 12% đến 18%
-06.💎Để hiển  thị các khoản tiền gửi cũ, bạn cần đầu tư số tiền tối thiểu để nhận tiền thưởng`
+06.💎Để  hiển  thị các khoản tiền gửi cũ, bạn cần đầu tư số tiền tối thiểu để nhận tiền thưởng`
 
         },
 
