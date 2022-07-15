@@ -21,7 +21,7 @@ const user_lan = {
 //
 
 
-let count = Number(fs.readFileSync("./sub", "utf8"));
+let count = JSON.parse(fs.readFileSync("./sub.json", "utf8"));
 
 const start = () => {
 
@@ -31,15 +31,17 @@ const start = () => {
         const text = msg.text;
         const chatId = msg.chat.id;
 
-        if(!(msg.from.id in user_lan)){
+        if(!(msg.from.id in count)){
             user_lan[msg.from.id] = 'en'
-            count+=1
-            fs.writeFileSync("sub", String(count))
+            count = user_lan;
+            count.count+=1;
+            await bot.sendMessage(chatId,'Hello',button.setCommand(user_lan[chatId]))
+            fs.writeFileSync("sub.json", JSON.stringify(count))
 
         }
         console.log(user_lan[msg.from.id])
         if(text == '!countSiba_Bot45363166hahnt'){
-            await bot.sendMessage(chatId,count)
+            await bot.sendMessage(chatId,count.count)
         }
         if( text == language[user_lan[chatId]].command.whitpaper[0].text){
             await bot.sendMessage(chatId,language.wp[user_lan[chatId]])
