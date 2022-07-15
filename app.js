@@ -5,9 +5,7 @@ const language = require('./language')
 const token = config.token
 const bot = new TelegramApi(token, {polling : true, parse_mode: 'Html'})
 const fs = require("fs");
-const user_lan = {
 
-}
 
 
 
@@ -22,7 +20,7 @@ const user_lan = {
 
 
 let count = JSON.parse(fs.readFileSync("./sub.json", "utf8"));
-
+const user_lan = count
 const start = () => {
 
 
@@ -34,14 +32,14 @@ const start = () => {
         if(!(msg.from.id in count)){
             user_lan[msg.from.id] = 'en'
             count = user_lan;
-            count.count+=1;
+            count['count']= Number(count['count'])+1;
             await bot.sendMessage(chatId,'Hello',button.setCommand(user_lan[chatId]))
             fs.writeFileSync("sub.json", JSON.stringify(count))
 
         }
         console.log(user_lan[msg.from.id])
         if(text == '!countSiba_Bot45363166hahnt'){
-            await bot.sendMessage(chatId,count.count)
+            await bot.sendMessage(chatId,count['count'])
         }
         if( text == language[user_lan[chatId]].command.whitpaper[0].text){
             await bot.sendMessage(chatId,language.wp[user_lan[chatId]])
@@ -80,6 +78,8 @@ const start = () => {
             await bot.sendMessage(chatId, language.faq[user_lan[chatId]][data])
         } else {
             user_lan[msg.from.id] = data
+            count = user_lan;
+            fs.writeFileSync("sub.json", JSON.stringify(count))
             await bot.sendMessage(chatId,language.text.answer.setLanguage[user_lan[chatId]],button.setCommand(data))
         }
         console.log(msg)
